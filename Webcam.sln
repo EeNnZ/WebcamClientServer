@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33020.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebcamViewer", "WebcamViewer\WebcamViewer.csproj", "{9C1C9638-359D-49DD-BFA3-7410BE63E20C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebcamServer", "WebcamServer\WebcamServer.csproj", "{2FB02563-4307-4845-AD08-CF2A91DE6E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9C1C9638-359D-49DD-BFA3-7410BE63E20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1C9638-359D-49DD-BFA3-7410BE63E20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1C9638-359D-49DD-BFA3-7410BE63E20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB02563-4307-4845-AD08-CF2A91DE6E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB02563-4307-4845-AD08-CF2A91DE6E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB02563-4307-4845-AD08-CF2A91DE6E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB02563-4307-4845-AD08-CF2A91DE6E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
