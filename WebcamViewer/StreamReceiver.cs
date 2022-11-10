@@ -24,10 +24,16 @@ namespace WebcamViewer
 
         public async Task<byte[]> ReceiveAsync()
         {
-            while (true)
+            UdpReceiveResult result;
+            try
             {
-                return (await _udpClient.ReceiveAsync()).Buffer;
+                result = await _udpClient.ReceiveAsync();
             }
+            catch (Exception)
+            {
+                return null;
+            }
+            return result.Buffer;
         }
     }
 }
